@@ -1,0 +1,34 @@
+# Análisis FODA para un negocio de reciclaje
+foda_reciclaje = {
+    "Fortalezas": [
+        "Contribución al medio ambiente y reducción de residuos", 
+        "Posible apoyo de entidades gubernamentales y ONGs", 
+        "Creciente conciencia ecológica en la sociedad",
+        "Bajo costo de materia prima (material reciclado)",
+        "Posibilidad de generar ingresos con productos reciclados"
+    ],
+    "Oportunidades": [
+        "Crecimiento del mercado de productos sostenibles", 
+        "Subsidios y beneficios fiscales por actividades ecológicas", 
+        "Innovación en materiales reciclados y economía circular",
+        "Colaboraciones con empresas que buscan sostenibilidad"
+    ],
+    "Debilidades": [
+        "Dificultad para compactar, clasificar y recolectar materiales", 
+        "Baja rentabilidad inicial", 
+        "Necesidad de educar al consumidor sobre reciclaje",
+        "Dependencia de regulaciones gubernamentales"
+    ],
+    "Amenazas": [
+        "Competencia con grandes empresas de reciclaje", 
+        "Falta de infraestructura en algunos sectores", 
+        "Baja cultura de reciclaje en ciertos mercados",
+        "Fluctuación en precios de materiales reciclados"
+    ]
+}
+
+# Mostrar FODA
+for clave, valores in foda_reciclaje.items():
+    print(f"\n{clave}:")
+    for valor in valores:
+        print(f"- {valor}")
